@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zzz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/albert"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="Main" android:label="메 인 메 뉴" android:icon="@drawable/menu" ></activity>
+        <activity
+            android:name="AppInfo" android:label="앱 정 보" android:icon="@drawable/menu" ></activity>
+        <activity
+            android:name="DiaryList" android:label="메 모 장" android:icon="@drawable/menu" ></activity>
+        <activity
+            android:name="DiaryWrite" android:label="메 모 쓰 기"></activity>
+        <activity
+            android:name="DiaryDetail" android:label="메 모 보 기"></activity>
+        <activity
+            android:name="ImuControl" android:label="가속도 제어" android:screenOrientation="landscape" ></activity>
+        <activity
+            android:name="ModeSet" android:label="모 드 설 정"></activity>
+        <activity
+            android:name="SpeechToText" android:label="음 성 인 식"  ></activity>
+        <activity
+            android:name="Controler" android:label="컨 트 롤 러" android:screenOrientation="landscape" ></activity>
+        <activity
+            android:name="Mic" android:label="마 이 크"  ></activity>
+
+        
+    </application>
+
+</manifest>

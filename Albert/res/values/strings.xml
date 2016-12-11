@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Albert</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="ten">Max_Velocity=100%</string>
+    <string name="eight">Max_Velocity=80%</string>
+    <string name="six">Max_Velocity=60%</string>
+    <string name="four">Max_Velocity=40%</string>
+    <string name="two">Max_Velocity=20%</string>
+    <string name="zero">Max_Velocity=0%</string>
+    
+    <string name="intro">Android S/W</string>
+    <string name="start">시 작!</string>
+    <string name="description">- Enjoy your Robot -</string>
+   
+    <string name="a_mode">멈추기</string>
+    <string name="b_mode">술래잡기</string>
+    <string name="c_mode">도망가기</string>
+    <string name="d_mode">따라가기</string>
+    <string name="stop">정지</string>
+    
+    <string name="instruction1">앞으로</string>
+    <string name="instruction2">뒤로</string>
+    <string name="instruction3">오른쪽 회전</string>
+    <string name="instruction4">왼쪽 회전</string>
+    <string name="instruction5">정지</string>
+    
+    <string name="speech_prompt">말씀하세요</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">마이크 버튼을 눌러보세요</string>
+    
+</resources>

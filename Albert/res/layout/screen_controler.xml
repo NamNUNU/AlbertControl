@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:padding="20dp"
+   android:orientation="horizontal"
+   android:background="#ffffffff">
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+         android:layout_height="match_parent">
+         
+        <ImageView
+        android:id="@+id/pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/joystick"
+        android:contentDescription="@null" />
+        
+        <ImageButton
+        android:id="@+id/left"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical = "true"
+        android:layout_toLeftOf = "@id/pic"
+        android:src="@drawable/left"
+        android:background="#ffffffff"
+        android:contentDescription="@null" />
+        
+        <ImageButton
+        android:id="@+id/right"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical = "true"
+        android:layout_toRightOf = "@id/pic"
+        android:src="@drawable/right"
+        android:background="#ffffffff"
+        android:contentDescription="@null" />
+        
+        <ImageButton
+        android:id="@+id/forward"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal = "true"
+        android:layout_above = "@id/pic"
+        android:src="@drawable/speed_up"
+        android:background="#ffffffff"
+        android:contentDescription="@null" />
+        
+        <ImageButton
+        android:id="@+id/backward"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal = "true"
+        android:layout_below = "@id/pic"
+        android:src="@drawable/speed_down"
+        android:background="#ffffffff"
+        android:contentDescription="@null" />
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+              android:layout_weight="1"
+            android:layout_height="0dp">
+            
+            <ImageButton
+              android:id="@+id/speed_up"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:layout_centerInParent="true"
+              android:src="@drawable/speed_up"
+              android:background="#ffffffff"
+              android:contentDescription="@null" />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+              android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+              android:id="@+id/text"
+              android:layout_width="200dp"
+              android:layout_height="50dp"
+              android:layout_centerInParent="true"
+              android:gravity="center" 
+              android:text="@string/four"/>       
+                     
+        </RelativeLayout>
+        
+        <RelativeLayout
+         android:layout_width="match_parent"
+           android:layout_weight="1"
+            android:layout_height="0dp">
+            
+            <ImageButton
+              android:id="@+id/speed_down"
+              android:layout_width="80dp"
+              android:layout_height="80dp"
+              android:layout_centerInParent="true"
+              android:src="@drawable/speed_down"
+              android:background="#ffffffff"
+              android:contentDescription="@null" />
+            
+        </RelativeLayout>
+    </LinearLayout>
+    
+
+</LinearLayout>
